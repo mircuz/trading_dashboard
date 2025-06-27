@@ -1,6 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var url = require('url');
+var PORT = process.env.PORT || 8081;
 
 http.createServer(function (req, response) {
     var q = url.parse(req.url);
@@ -20,7 +21,7 @@ http.createServer(function (req, response) {
         console.log('User does' + req.method);
         return response.end();
     })
-}).listen(8081);
+}).listen(PORT);
 
 
 
