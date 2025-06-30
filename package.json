@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mircuz/trading_dashboard/issues"
   },
-  "homepage": "https://github.com/mircuz/trading_dashboard#readme"
+  "homepage": "https://github.com/mircuz/trading_dashboard#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
